@@ -1,0 +1,55 @@
+body {
+	font-family: "Lucida Console", Courier, monospace;
+}
+#header-nav{
+	background-color: #222;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-brand {
+	font-family: 'Oxygen', 'Lora', sans-serif;
+	font-weight: bold;
+	color: #ff7 !important;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 15px;
+}
+.navbar-header{
+	clear: both;
+}
+.navbar-collapse {
+	padding: 0;
+}
+#nav-list {
+	margin: 0;
+	text-align: center;
+	background-color: lightslategray;
+	color: #222;
+	font-weight: bold;
+}
+
+#nav-list a{
+	color: #fff;
+	font-size: 1.5em;
+}
+#nav-list a:hover{
+	color: tomato;
+	background-color: #ff7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ff7;
+}
+h3 {
+	font-weight: bold;
+	font-size: 2em;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.content {
+	background-color: lightgrey;
+}
+.row hr {
+	width: 50%;
+	border-bottom: 1px dashed black;
+}
